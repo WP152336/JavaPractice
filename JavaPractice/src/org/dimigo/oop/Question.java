@@ -21,10 +21,11 @@ public class Question {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String[] questions={"1.가장 좋아하는 가수는?","2.가장 좋아하는 배우는?","3.가장 좋아하는 과목은?"};
+		String[] questions={"가장 좋아하는 가수는?","가장 좋아하는 배우는?","가장 좋아하는 과목은?"};
 		String[] answers={"NCT","서현진","응용프로그래밍"};
 		
 		for(int i=0;i<3;i++){
+			System.out.printf("%d.",i+1);
 		System.out.println(questions[i]);
 		String answer = scanner.nextLine();
 		if(answer.equals(answers[i])){
