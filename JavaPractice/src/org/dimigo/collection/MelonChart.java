@@ -19,7 +19,7 @@ import java.util.List;
  * @author jiheu
  * @version : 1.0
  */
-public class MelonGenreChart {
+public class MelonChart {
 
 	public static void main(String[] args) {
 		  List<Music> list = new ArrayList<Music>();
